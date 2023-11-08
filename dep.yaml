@@ -20,7 +20,7 @@ spec:
         app.kubernetes.io/name: app-2048
     spec:
       containers:
-      - image: ekkumar/ultimate-cicd1:6
+      - image: https://hub.docker.com/layers/ekkumar/ultimate-cicd1/6
         imagePullPolicy: Always
         name: app-2048
         ports:
